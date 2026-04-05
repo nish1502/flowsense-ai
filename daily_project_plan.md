@@ -1,71 +1,99 @@
-# FlowSense AI: 30-Day Step-by-Step Learning & Coding Plan
+# 🚀 FlowSense AI: 14-Day Rapid Build & Deploy Plan
 
-Welcome! This plan is designed for two freshers (Nishita and Aditi) to build **FlowSense AI**. Don't worry about the big words—we will explain everything as we go.
-
----
-
-## 🛠️ Simple Glossary (The "What is this?" Section)
-- **Agent:** A "virtual person" in our computer simulation.
-- **Mesa:** A tool we use to create and move thousands of these virtual people.
-- **Analytics:** The part of the code that counts things (like how crowded a corner is).
-- **LLM/AI Brain:** A smart computer program (like ChatGPT) that helps make decisions.
-- **Backend (FastAPI):** The hidden engine that makes the app work.
-- **Frontend/Dashboard:** The screen you see with charts and maps.
+This plan is optimized for **Antigravity** (your AI assistant), with daily **GitHub** syncing and mandatory **Testing Phases**. On **Day 15**, we deploy!
 
 ---
 
-## 📅 Roadmap: From Zero to FlowSense
-
-### **Week 1: Foundations & Virtual People**
-*Goal: Get your computer ready and see virtual people move on a screen.*
-
-| Day | Nishita's Tasks | Aditi's Tasks |
-| :--- | :--- | :--- |
-| **1-2** | **Research:** Read about how crowds behave during stampedes. Find 5 real-life examples and write down what went wrong. | **Setup:** Install Python and VS Code. Try making a "Hello World" program in a tool called Mesa. |
-| **3** | **Planning:** Draw a simple map of a stadium on paper. Decide where the "EXIT" signs and "STAGE" should be. | **Coding:** Write the code that tells a virtual person, "Go from the Stage to the Exit." |
-| **4** | **Rules:** Decide how fast people walk and what happens when they bump into each other (simple rules). | **Coding:** Make 100 virtual people appear on a screen and start moving toward the exit. |
-| **5-7** | **Physics:** Add a "Panic" rule: if it gets too crowded, virtual people start moving faster or clumsily. | **Logic:** Add "Obstacles" like walls and fences so people have to walk *around* them. |
+## 🛠️ The Tech Stack (What we are using)
+- **Programming Language:** Python 3.11+
+- **"Virtual People" Simulator:** `Mesa` (Python library for agent-based modeling)
+- **The Engine (Backend):** `FastAPI` (Very fast tool to connect code to the web)
+- **The Screen (Frontend):** `HTML5`, `Vanilla CSS`, `Javascript` (Simple and powerful)
+- **The AI Brain:** `LangGraph` + `OpenRouter` (To connect to smart AI like Claude/GPT-4)
+- **Data Math:** `Pandas` & `NumPy` (For counting and calculating risk)
+- **Tools:** `VS Code`, `GitHub`, `Docker` (Optional but good for deployment)
 
 ---
 
-### **Week 2: The "Smart" Counter (Analytics)**
-*Goal: Teach the computer to spot when it's getting too crowded.*
+## 📅 14-Day Sprint (Day-by-Day)
 
-| Day | Nishita's Tasks | Aditi's Tasks |
-| :--- | :--- | :--- |
-| **8-10** | **The Danger Score:** Create a math formula: "If more than 4 people are in one small box, mark it as RED (Danger)." | **Data Pipeline:** Write code that saves the location of every person every second so we can study it later. |
-| **11-12** | **Thresholds:** Decide when to send a warning. (Example: 2 people = Safe, 5 people = Warning, 10 people = Emergency). | **Counters:** Create a "Counter" that shows how many people are entering vs. exiting every minute. |
-| **13-14** | **Testing:** Run the simulation and see if your "Danger Score" actually turns red when people get stuck. | **Speed Study:** Write code to measure how the average speed drops as more people enter the room. |
-
----
-
-### **Week 3: The AI Brain (LangGraph)**
-*Goal: Use an AI assistant to give advice on how to save people.*
-
-| Day | Nishita's Tasks | Aditi's Tasks |
-| :--- | :--- | :--- |
-| **15-16** | **The Playbook:** Write down "What should the AI do?" (Example: "If Gate A is stuck, tell people to use Gate B"). | **AI Setup:** Connect your code to an "AI Brain" (like GPT) using a tool called OpenRouter. |
-| **17-18** | **Teaching the AI:** Give the AI the "Danger Scores" and ask it: "What is happening right now?" | **AI Flow:** Use a tool called LangGraph to help the AI think in steps (e.g., Step 1: Detect, Step 2: Analyze, Step 3: Advice). |
-| **19-21** | **Explanations:** Tweak the AI so it speaks like a professional safety officer: "Urgent! Gate 4 is crowded. Open Gate 5 now." | **Intervention:** Write code that allows the AI to actually open virtual gates in your simulation. |
+### **Phase 1: Environment & Research (Days 1)**
+*Objective: Get everything ready and synced with GitHub.*
+- **Day 1:**
+  - **Both:** Set up a GitHub Repository. Connect it to VS Code.
+  - **Nishita:** Research crowd disasters. Define "Danger Thresholds" (e.g., 5 people per meter = Red).
+  - **Aditi:** Set up Python Environment. Install `Mesa`, `FastAPI`, and `Pandas`.
+  - **End of Day:** Git Commit & Push.
 
 ---
 
-### **Week 4: The Dashboard & Final Show**
-*Goal: Build the screen that shows the map and the AI's advice.*
-
-| Day | Nishita's Tasks | Aditi's Tasks |
-| :--- | :--- | :--- |
-| **22-24** | **Design:** Build the website screen where the map will show up. Make the "Danger Score" big and red. | **The Bridge:** Write the code that sends data from the simulation to the website in real-time. |
-| **25-27** | **Integration:** Connect the AI's "Advice" to a chat box on the website. | **Polishing:** Fix any bugs where the simulation crashes or the screen becomes slow. |
-| **28-29** | **The "Final Test":** Simulate a disaster (like a fire) and see if the AI successfully guides people to safety. | **Documentation:** Write a simple "How to Run This" guide. Record a 2-minute video of the app working. |
-| **30** | **Submission:** Finalize the project and prepare to share it on LinkedIn/GitHub! | **Review:** Double-check all code and celebrate! |
+### **Phase 2: Core Simulation (Days 2-4)**
+*Objective: Make virtual people move and avoid walls.*
+- **Day 2:**
+  - **Nishita:** Define agent rules (speed, goals).
+  - **Aditi:** Code the `Mesa` Grid and a simple "Person" agent.
+- **Day 3:** 
+  - **Both:** Add obstacles (walls/gates) and pathfinding (how agents find the best route).
+- **Day 4: 🧪 PHASE 1-2 TESTING:**
+  - **Both:** Run the simulation. Check: Do people walk through walls? (Bug!). Do they reach the exit?
+  - **End of Day:** Fix bugs + Git Push.
 
 ---
 
-## 💡 Pro-Tips for Freshers
-1. **Don't Panic:** If code breaks, it's normal. That's how you learn!
-2. **Search YouTube:** Topics like "Mesa Python Tutorial" or "FastAPI for Beginners" will be your best friends.
-3. **Daily Sync:** Talk to your friend for 15 minutes every morning to see what you both plan to do.
-4. **Build Small:** First make one person walk. Then make 10. Then make it smart. Don't try to do everything at once!
+### **Phase 3: Analytics & Risk Score (Days 5-7)**
+*Objective: Teach the computer to measure "Crowd Danger."*
+- **Day 5:** 
+  - **Nishita:** Create a math formula for "Risk Score" (Density + Speed Conflict).
+  - **Aditi:** Build the data logger (save per-second agent locations).
+- **Day 6:**
+  - **Nishita:** Set up "Visual Alerts" logic (turn zones red if score is high).
+  - **Aditi:** Build the real-time density counter using NumPy.
+- **Day 7: 🧪 PHASE 3 TESTING:**
+  - **Both:** Run a crowded scenario. Does the "Risk Score" go up correctly?
+  - **End of Day:** Fix any math errors + Git Push.
 
-Good luck, Team! You've got this. 🚀
+---
+
+### **Phase 4: The AI Brain (Days 8-10)**
+*Objective: Connect the AI to think and give advice.*
+- **Day 8:** 
+  - **Nishita:** Write "AI Playbooks" (If Gate A is full -> Advice: Open Gate B).
+  - **Aditi:** Connect to OpenRouter API. Test a simple "Hello AI" call.
+- **Day 9:**
+  - **Both:** Use `LangGraph` to pass "Danger Scores" to the AI and get advice.
+- **Day 10: 🧪 PHASE 4 TESTING:**
+  - **Both:** Ask the AI: "Gate A is crowded, what should I do?" Check if its advice matches the playbook.
+  - **End of Day:** Tweak AI prompts + Git Push.
+
+---
+
+### **Phase 5: The Dashboard & Real-time Visuals (Days 11-13)**
+*Objective: Build the screen safety officers will use.*
+- **Day 11:** 
+  - **Nishita:** Design the Dashboard layout (Map on left, AI notes on right).
+  - **Aditi:** Build the `FastAPI` server and WebSocket (for real-time data flow).
+- **Day 12:**
+  - **Both:** Build the Map visualization using HTML Canvas or a map library like Leaflet.js.
+- **Day 13: 🧪 SYSTEM INTEGRATION TESTING:**
+  - **Both:** Connect everything. Simulation -> Data -> AI -> Dashboard. Does the map update live?
+  - **End of Day:** Performance optimization + Git Push.
+
+---
+
+### **Phase 6: Final Stress Test & Launch (Days 14-15)**
+*Objective: Break the system to make it stronger, then go live.*
+- **Day 14:**
+  - **Both:** **"Black Swan" Testing.** Simulate a fire or a sudden gate closure. Check if the AI helps people escape successfully.
+  - **End of Day:** Final UI polish and code cleanup.
+- **Day 15: 🚀 DEPLOYMENT DAY:**
+  - **Both:** Deploy the Backend to **Render/Railway** and Frontend to **Vercel/GitHub Pages**.
+  - **Final Task:** Write a clean `README.md` and record a project demo.
+
+---
+
+## 💡 How to use Antigravity (Your AI Assistant)
+1. **Coding:** Say "Antigravity, help me write the Mesa Agent class for Day 2."
+2. **Debugging:** If you see an error, paste it and say "Antigravity, why is my WebSocket failing?"
+3. **Daily GitHub:** At 5 PM every day, say "Antigravity, help me commit and push today's work with a good message."
+
+**Final Tip:** Don't skip the **Testing Days**. If something is broken on Day 4, don't start Day 5 until it is fixed! 🛠️
